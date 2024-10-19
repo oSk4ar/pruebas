@@ -121,10 +121,11 @@ hr {
 }
 
 /* News Cards */
+
 .news-cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 25px;
+  grid-gap: 25px;
   margin: 70px 0;
 }
 
@@ -136,11 +137,12 @@ hr {
 .news-cards h3 {
   font-size: 20px;
   margin: 10px 0;
+  color: #0048aa;
 }
 
 .news-cards a {
   padding: 10px 0;
-  color: #f2f2f2;
+  color: #5be0e7;
   text-transform: uppercase;
   display: inline-block;
   font-weight: bold;
@@ -175,6 +177,16 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+h1 {
+	color: #ff8a48;
+	font-size: 70px;
+}
+
+h2 {
+	color: #0048aa;
+	font-size: 30px;
 }
 
 .links a {
